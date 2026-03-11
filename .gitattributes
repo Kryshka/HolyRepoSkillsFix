@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Standard C# source files
+*.cs text
+*.csproj text
+*.sln text
+
+# Text-based resources
+*.md text
+*.json text
+*.xml text
+*.txt text
+
+# Binary files
+*.png binary
+*.dll binary
+*.repobundle binary
+jp_repoholyskillsprefabs binary
