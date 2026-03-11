@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>JP_RepoHolySkills</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoWarn>CS1525,CS1056,CS1003,CS1002,CS1513,CS1026,CS0169,CS0414,CS0649,CS1998,CS8773</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="PhotonUnityNetworking"><HintPath>refs\PhotonUnityNetworking.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>refs\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="BepInEx"><HintPath>refs\BepInEx.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>refs\0Harmony.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>refs\UnityEngine.AssetBundleModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>refs\UnityEngine.UI.dll</HintPath></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>refs\Unity.TextMeshPro.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>refs\Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>refs\UnityEngine.AudioModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>refs\UnityEngine.ParticleSystemModule.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>refs\Assembly-CSharp-firstpass.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>refs\UnityEngine.InputLegacyModule.dll</HintPath></Reference>
+    <Reference Include="PhotonRealtime"><HintPath>refs\PhotonRealtime.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>refs\UnityEngine.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
